@@ -67,3 +67,4 @@ test_data.to_csv("prediction_file.csv", index=False)
 # Opening the CSV file with predictions
 result = pd.read_csv("prediction_file.csv")
 print(result)
+
