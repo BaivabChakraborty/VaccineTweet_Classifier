@@ -32,7 +32,7 @@ X_train, X_val, y_train, y_val = train_test_split(
     X, y_labels_binarized, test_size=0.1, random_state=42
 )
 
-# Initialize the MultiOutputClassifier with Naive Bayes
+# Initialize the MultiOutputClassifier with the Naive Bayes
 model = MultiOutputClassifier(MultinomialNB(alpha=1, fit_prior=False))
 
 # Fit the model to the multi-label training data
